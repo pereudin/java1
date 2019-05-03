@@ -57,6 +57,7 @@ public class ArrayAndLoops {
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
                 if (i == j) arr3[i][j] = 1;
+                if (j == arr3.length - i -1) arr3[i][j] = 1;
 
                 // проверка п.4 Задания 2
                 System.out.print(arr3[i][j] + "\t");
